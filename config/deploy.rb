@@ -8,6 +8,7 @@ set :repository, "htdocs"
 set :scm, :none 
 set :copy_compression, :gzip
 set :use_sudo, false
+set :keep_releases, 2
 
 set :user, deployment_user
 
